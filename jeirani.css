@@ -1,0 +1,40 @@
+button {
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family:'Times New Roman', Times, serif;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    height: 130px;
+    width: 500px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(proxy-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icons {
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#result, #dv {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: blue;
+    color: yellow;
+    border: 10px ridge black;
+    border-radius: 10px;
+}
